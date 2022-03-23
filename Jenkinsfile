@@ -40,7 +40,6 @@ pipeline {
             }
         }
    
-
         stage('Pushing to ECR') {
             steps{  
                 script {
