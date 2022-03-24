@@ -115,6 +115,6 @@ COPY html /usr/share/nginx/html
 # Copy Scripts
 COPY ./start.sh /start.sh
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["/start.sh"]
